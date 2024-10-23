@@ -7,7 +7,7 @@ import ErrorPage from "./pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/nasi-udukBude",
     element: <Home />,
     errorElement: <ErrorPage />,
   },
@@ -17,6 +17,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
   </StrictMode>
 );

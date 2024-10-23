@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import background from "/src/assets/image-hero.jpg"
 
 const Example = () => {
   return (
@@ -73,7 +74,7 @@ const Example = () => {
       <div className="absolute inset-0">
         <img
           className="object-cover w-full h-full opacity-25"
-          src="/src/assets/image-hero.jpg"
+          src= {background }
           alt=""
         />
       </div>
