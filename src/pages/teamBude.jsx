@@ -67,7 +67,7 @@ const TeamBude = () => {
 
           <div className="mt-8 text-center md:mt-16">
             <h1 className="text-4xl text-white font-bold">
-             Doakan supaya warung ini jadi besar, aamiin
+             Ayo kenal lebih jauh tentang kami dan mari silaturahmi 
             </h1>
           </div>
         </div>

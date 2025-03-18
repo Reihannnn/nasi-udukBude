@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import background from "/src/assets/image-hero.jpg"
+import background from "/src/assets/image-hero.jpg";
 
 const Example = () => {
   return (
@@ -8,10 +8,12 @@ const Example = () => {
         <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
           <div className="flex items-center justify-between">
             <div className="flex flex-shrink-0">
-              <h1 className="text-white text-3xl font-bold">
-                Nasiuduk{" "}
-                <span className="underline underline-offset-4">Bude</span>
-              </h1>
+              <a href="#">
+                <h1 className="text-white text-3xl font-bold">
+                  Nasiuduk{" "}
+                  <span className="underline underline-offset-4">Bude</span>
+                </h1>
+              </a>
             </div>
 
             <div className="md:hidden">
@@ -44,13 +46,20 @@ const Example = () => {
               >
                 <h1>Team</h1>
               </a>
+              <a
+                href="#map-location"
+                title=""
+                className="font-sans text-xl font-normal transition-all duration-200 rounded text-white focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary scroll-smooth md:scroll-auto"
+              >
+                <h1>Location</h1>
+              </a>
 
-              <Link to ="/pro"
+              <Link
+                to="/pro"
                 className="
                             inline-flex
                             items-center
                             justify-center
-                            px-5
                             py-2
                             font-sans
                             font-normal
@@ -74,7 +83,7 @@ const Example = () => {
       <div className="absolute inset-0">
         <img
           className="object-cover w-full h-full opacity-25"
-          src= {background }
+          src={background}
           alt=""
         />
       </div>
@@ -86,48 +95,20 @@ const Example = () => {
               Menerima Pesanan
             </h1>
             <p className="mt-6 tracking-tighter text-white">
-              <span className="font-sans font-bold text-7xl">
+              <span className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl xl:text-6xl">
                 Nasi uduk paling Enak
               </span>
               <br />
               <br />
-              <span className="font-serif italic font-normal text-6xl">
+              <span className="font-serif italic font-normal text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
                 Delecious uduk rice
               </span>
             </p>
-            <p className="mt-7 mb-7 font-sans text-2xl font-normal text-white text-opacity-80">
+            <p className="mt-7 mb-7 font-sans text-xl md:text-2xl lg:text-3xl xl:text-4xl font-normal text-white text-opacity-80">
               Dimulai dari Rp.7000 / pcs
             </p>
 
             <div className="flex items-center mt-5 space-x-3 sm:space-x-4">
-              <a
-                href="#"
-                title=""
-                className="
-                            inline-flex
-                            items-center
-                            justify-center
-                            px-5
-                            py-2
-                            font-sans
-                            text-base
-                            font-semibold
-                            transition-all
-                            duration-200
-                            border-2 border-transparent
-                            rounded-full
-                            sm:leading-8
-                            bg-white
-                            sm:text-lg
-                            text-black
-                            hover:bg-opacity-90
-                            focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-secondary
-                        "
-                role="button"
-              >
-                Get started
-              </a>
-
               <a
                 href="#menu"
                 title=""
@@ -135,7 +116,7 @@ const Example = () => {
                             inline-flex
                             items-center
                             justify-center
-                            px-5
+                            px-10
                             py-2
                             font-sans
                             text-base
@@ -146,11 +127,11 @@ const Example = () => {
                             border-2
                             rounded-full
                             sm:leading-8
-                            text-white
+                            bg-white
                             border-primary
-                            hover:bg-white
+                            hover:bg-black
                             focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary
-                            hover:text-black
+                            hover:text-white
                             sm:text-lg
                             focus:ring-offset-secondary
                         "

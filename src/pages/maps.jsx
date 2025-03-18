@@ -1,9 +1,9 @@
 function Maps() {
   return (
     <>
-      <div className="p-10">
+      <div className="p-10" id="map-location">
         <h1 className="font-bold text-5xl text-center mb-10">
-          Lokasi warung Bude
+          Warung Bude Location
         </h1>
         <div className="h-[500px] w-full">
           <iframe
