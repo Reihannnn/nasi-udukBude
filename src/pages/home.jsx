@@ -1,5 +1,5 @@
 import Example from "./hero-section.jsx";
-import MenuPage from "./menu.jsx";
+import MenuPage from "./Menu.jsx";
 import TeamBude from "./teamBude.jsx";
 import Maps from "./maps.jsx";
 
