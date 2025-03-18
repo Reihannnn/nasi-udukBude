@@ -7,8 +7,8 @@ import ErrorPage from "./pages/errorPage";
 
 const router = createBrowserRouter([
   {
-    path: "/nasi-udukBude",
-    element: <Home />,
+    path: "/",
+    element: <Home/>,
     errorElement: <ErrorPage />,
   },
 ]);
